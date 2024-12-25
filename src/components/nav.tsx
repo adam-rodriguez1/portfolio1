@@ -11,16 +11,20 @@ export default function Nav() {
   const links = [
     {
       path: '/',
-      text: 'Home',
+      text: 'Acceuil',
     },
     {
       path: '/about',
-      text: 'About',
+      text: 'À-Propos',
     },
     {
       path: '/work',
-      text: 'Work',
+      text: 'Projet',
     },
+    {
+      path: '/CV',
+      text:'CV',
+    }
   ]
 
   return (

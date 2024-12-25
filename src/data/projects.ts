@@ -1,38 +1,38 @@
 const PROJECTS: {
-  name: string
-  description: string
-  previewImage: string
-  repoUrl: string
-  liveLink: string
+  name: string;
+  description: string;
+  previewImage: string;
+  repoUrl: string;
+  liveLink: string;
 }[] = [
   {
-    name: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project1.png',
-    repoUrl: 'https://github.com',
+    name: "KASA",
+    description: "Le front-end d'un booking-like développé avec React.",
+    liveLink: "https://google.com",
+    previewImage: "/capture5.png",
+    repoUrl: "https://github.com/adam-rodriguez1/KASA",
   },
   {
-    name: 'Project 2',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project2.png',
-    repoUrl: 'https://github.com',
+    name: "Mon vieux grimoire",
+    description: "Back-end d'un site de notation de livres réalisé avec Node.js, Express et MongoDB.",
+    liveLink: "https://google.com",
+    previewImage: "/capture6.png",
+    repoUrl: "https://github.com/adam-rodriguez1/back.git",
   },
   {
-    name: 'Project 3',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project3.png',
-    repoUrl: 'https://github.com',
+    name: "J-plage",
+    description: "Petit site conçu pour m'entraîner à utiliser une API, mais qui peut se révéler motivant pour nos lignes.",
+    liveLink: "https://google.com",
+    previewImage: "/capture3.png",
+    repoUrl: "https://github.com/adam-rodriguez1/j-plage",
   },
   {
-    name: 'Project 4',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project4.png',
-    repoUrl: 'https://github.com',
+    name: "mo-mo-mo",
+    description: "Un Wordle-like proposant des modes de jeu inédits.",
+    liveLink: "https://google.com",
+    previewImage: "/capture4.png",
+    repoUrl: "https://github.com/adam-rodriguez1/jeuxdemots",
   },
-]
+];
 
-export default PROJECTS
+export default PROJECTS;

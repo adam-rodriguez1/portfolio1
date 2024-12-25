@@ -45,21 +45,24 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
           skill: 'nodejs',
           icon: SiNodedotjs,
         },
-        {
-          skill: 'ruby on rails',
-          icon: SiRubyonrails,
-        },
-        {
-          skill: 'redis',
-          icon: SiRedis,
-        },
-        {
-          skill: 'postgresql',
-          icon: SiPostgresql,
-        },
+       
+      
         {
           skill: 'mongodb',
           icon: SiMongodb,
+        },
+      
+      ],
+    },
+    {
+      field: 'Ce a quoi je veux me former',
+      skills: [
+    
+      
+       
+        {
+          skill: 'bootstrap',
+          icon: SiBootstrap,
         },
         {
           skill: 'mysql',
@@ -72,6 +75,18 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         {
           skill: 'docker',
           icon: SiDocker,
+        },
+        {
+          skill: 'ruby on rails',
+          icon: SiRubyonrails,
+        },
+        {
+          skill: 'redis',
+          icon: SiRedis,
+        },
+        {
+          skill: 'postgresql',
+          icon: SiPostgresql,
         },
       ],
     },

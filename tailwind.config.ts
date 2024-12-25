@@ -45,6 +45,20 @@ const config: Config = {
       screens: {
         w450: { raw: '(max-width: 450px)' },
       },
+      animation: {
+        marquee: "marquee 5s linear infinite",
+        marquee2: "marquee2 5s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marquee2: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+      },
     },
   },
   darkMode: 'class',
