@@ -8,7 +8,7 @@ export default function Marquee({ items }: { items: string[] }) {
                 key={item}
                 className={`mx-4 text-4xl ${index % 2 === 0 ? 'bg-white-500' : 'bg-red-500'}`}
                 style={{
-                  padding: '47px',
+                  padding: '46px',
                   borderRadius: '8px',
                   visibility: index % 2 === 0 ? 'hidden' : 'visible', // Cache le texte des items pairs
                 }}
@@ -26,7 +26,7 @@ export default function Marquee({ items }: { items: string[] }) {
                 key={item + '-duplicate'}
                 className={`mx-4 text-4xl ${index % 2 === 0 ? 'bg-white-500' : 'bg-red-500'}`}
                 style={{
-                  padding: '47px',
+                  padding: '46px',
                   borderRadius: '8px',
                   visibility: index % 2 === 0 ? 'hidden' : 'visible', // Cache le texte des items pairs
                 }}
