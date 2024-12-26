@@ -8,8 +8,17 @@ import { ThemeProvider } from '@/components/theme-provider'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Rodriguez Adam',
-}
+  title: 'Rodriguez Adam - Développeur Web à Bordeaux',
+  description: 'Portfolio de Rodriguez Adam, développeur web basé à Bordeaux, France.',
+  icons: '/favicon.ico',
+  openGraph: {
+    title: 'Rodriguez Adam - Développeur Web à Bordeaux',
+    description: 'Portfolio et projets de Rodriguez Adam, développeur web.',
+    url: 'https://portfolio1-sable-alpha.vercel.app/',
+    
+  },
+};
+
 
 export default function RootLayout({
   children,
