@@ -4,6 +4,7 @@ const PROJECTS: {
   previewImage: string;
   repoUrl: string;
   liveLink: string;
+  category: "Travail" | "Fun";
 }[] = [
   {
     name: "KASA",
@@ -11,6 +12,7 @@ const PROJECTS: {
     liveLink: "https://google.com",
     previewImage: "/capture5.png",
     repoUrl: "https://github.com/adam-rodriguez1/KASA",
+    category: "Travail",
   },
   {
     name: "Mon vieux grimoire",
@@ -18,13 +20,16 @@ const PROJECTS: {
     liveLink: "https://google.com",
     previewImage: "/capture6.png",
     repoUrl: "https://github.com/adam-rodriguez1/back.git",
+    category: "Travail",
   },
   {
     name: "J-plage",
-    description: "Petit site conçu pour m'entraîner à utiliser une API, mais qui peut se révéler motivant pour nos lignes.",
+    description:
+      "Petit site conçu pour m'entraîner à utiliser une API, mais qui peut se révéler motivant pour nos lignes.",
     liveLink: "https://adam-rodriguez1.github.io/j-plage/",
     previewImage: "/capture3.png",
     repoUrl: "https://github.com/adam-rodriguez1/j-plage",
+    category: "Fun",
   },
   {
     name: "mo-mo-mo",
@@ -32,6 +37,7 @@ const PROJECTS: {
     liveLink: "https://glistening-motley-bicycle.glitch.me/",
     previewImage: "/capture4.png",
     repoUrl: "https://github.com/adam-rodriguez1/jeuxdemots",
+    category: "Fun",
   },
 ];
 
