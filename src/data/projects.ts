@@ -6,22 +6,7 @@ const PROJECTS: {
   liveLink: string;
   category: "Travail" | "Fun";
 }[] = [
-  {
-    name: "KASA",
-    description: "Le front-end d'un booking-like développé avec React.",
-    liveLink: "https://google.com",
-    previewImage: "/capture5.png",
-    repoUrl: "https://github.com/adam-rodriguez1/KASA",
-    category: "Travail",
-  },
-  {
-    name: "Mon vieux grimoire",
-    description: "Back-end d'un site de notation de livres réalisé avec Node.js, Express et MongoDB.",
-    liveLink: "https://google.com",
-    previewImage: "/capture6.png",
-    repoUrl: "https://github.com/adam-rodriguez1/back.git",
-    category: "Travail",
-  },
+
   {
     name: "Sophie Bluel",
     description: "Optimisation SEO, amélioration des performances web (Lighthouse, Wave), optimisation d’images, structuration du code, et communication client.",
@@ -36,6 +21,22 @@ const PROJECTS: {
     liveLink: "https://adam-rodriguez1.github.io/booki/",
     previewImage: "/capture7.png",
     repoUrl: "https://github.com/adam-rodriguez1/booki",
+    category: "Travail",
+  },
+  {
+    name: "KASA",
+    description: "Le front-end d'un booking-like développé avec React.",
+    liveLink: "https://google.com",
+    previewImage: "/capture5.png",
+    repoUrl: "https://github.com/adam-rodriguez1/KASA",
+    category: "Travail",
+  },
+  {
+    name: "Mon vieux grimoire",
+    description: "Back-end d'un site de notation de livres réalisé avec Node.js, Express et MongoDB.",
+    liveLink: "https://google.com",
+    previewImage: "/capture6.png",
+    repoUrl: "https://github.com/adam-rodriguez1/back.git",
     category: "Travail",
   },
 

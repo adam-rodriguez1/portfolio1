@@ -55,7 +55,7 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
       ],
     },
     {
-      field: 'Ce a quoi je veux me former',
+      field: 'Domaines dans lesquels je souhaite me former',
       skills: [
     
       
