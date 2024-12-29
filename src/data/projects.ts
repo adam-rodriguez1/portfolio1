@@ -23,6 +23,23 @@ const PROJECTS: {
     category: "Travail",
   },
   {
+    name: "Sophie Bluel",
+    description: "Optimisation SEO, amélioration des performances web (Lighthouse, Wave), optimisation d’images, structuration du code, et communication client.",
+    liveLink: "https://adam-rodriguez1.github.io/sophiebluel/",
+    previewImage: "/capture2.png",
+    repoUrl: "https://github.com/adam-rodriguez1/sophiebluel",
+    category: "Travail",
+  },
+  {
+    name: "Mon vieux grimoire",
+    description: "Intégration web (HTML/CSS) basée sur des maquettes.",
+    liveLink: "https://adam-rodriguez1.github.io/booki/",
+    previewImage: "/capture7.png",
+    repoUrl: "https://github.com/adam-rodriguez1/booki",
+    category: "Travail",
+  },
+
+  {
     name: "J-plage",
     description:
       "Petit site conçu pour m'entraîner à utiliser une API, mais qui peut se révéler motivant pour nos lignes.",

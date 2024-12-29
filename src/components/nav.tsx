@@ -22,8 +22,10 @@ export default function Nav() {
       text: 'Projet',
     },
     {
-      path: '/CV',
+      path: '/cvadamrodriguez.pdf',
       text:'CV',
+      
+      external: true, 
     }
   ]
 

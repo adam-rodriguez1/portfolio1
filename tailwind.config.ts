@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       colors: {
         main: '#FD9745',
-        mainAccent: '#fc7303', // not needed for shadcn components
+        mainAccent: '#fc7303',
         overlay: 'rgba(0,0,0,0.8)',
 
         // light mode
@@ -23,7 +23,7 @@ const config: Config = {
         darkBg: '#272933',
         darkText: '#eeefe9',
         darkBorder: '#000',
-        secondaryBlack: '#212121', // opposite of plain white, not used pitch black because borders and box-shadows are that color
+        secondaryBlack: '#212121', 
       },
       borderRadius: {
         base: '5px',

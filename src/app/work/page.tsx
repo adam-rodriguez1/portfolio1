@@ -26,7 +26,7 @@ export default function Work() {
           <h2 className="text-xl font-heading sm:text-2xl text-black">{project.name}</h2>
           <p className="mt-2 text-center text-black">{project.description}</p>
           <div className="mt-8 grid grid-cols-2 gap-5 text-black">
-          {project.category !== "Travail" && (
+          
   <a
     className="rounded-base border-2 border-border bg-white px-4 py-2 text-center text-sm font-medium transition-all hover:translate-x-1 hover:translate-y-1 text-black"
     href={project.liveLink}
@@ -35,7 +35,7 @@ export default function Work() {
   >
     Visite 
   </a>
-)}
+
             <a
               className="rounded-base border-2 border-border bg-white px-4 py-2 text-center text-sm font-medium transition-all hover:translate-x-1 hover:translate-y-1"
               href={project.repoUrl}
