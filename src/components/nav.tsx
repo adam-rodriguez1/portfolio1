@@ -15,11 +15,11 @@ export default function Nav() {
     },
     {
       path: '/about',
-      text: 'À-Propos',
+      text: 'Expérience',
     },
     {
       path: '/work',
-      text: 'Projet',
+      text: 'Projets',
     },
     {
       path: '/cvadamrodriguez.pdf',
