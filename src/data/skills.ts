@@ -60,10 +60,7 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
     
       
        
-        {
-          skill: 'bootstrap',
-          icon: SiBootstrap,
-        },
+      
         {
           skill: 'mysql',
           icon: SiMysql,
